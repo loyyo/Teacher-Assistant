@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Menu główne">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_zajecia"
+                    android:icon="@drawable/ic_baseline_class_24"
+                    android:title="Zajęcia"/>
+
+                <item
+                    android:id="@+id/nav_uczniowie"
+                    android:icon="@drawable/ic_baseline_people_alt_24"
+                    android:title="Uczniowie"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Dodaj">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_dodaj_zajecia"
+                    android:icon="@drawable/ic_baseline_bookmark_add_24"
+                    android:title="Dodaj zajęcia"/>
+
+                <item
+                    android:id="@+id/nav_dodaj_ucznia"
+                    android:icon="@drawable/ic_baseline_person_add_alt_1_24"
+                    android:title="Dodaj ucznia"/>
+
+                <item
+                    android:id="@+id/nav_przypisz_zajecia"
+                    android:icon="@drawable/ic_baseline_assignment_ind_24"
+                    android:title="Przypisz zajęcia"/>
+
+                <item
+                    android:id="@+id/nav_dodaj_ocene"
+                    android:icon="@drawable/ic_baseline_add_task_24"
+                    android:title="Dodaj ocenę"/>
+            </group>
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ustawienia"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Ustawienia"/>
+
+        </group>
+</menu>
